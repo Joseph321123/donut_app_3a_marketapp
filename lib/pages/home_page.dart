@@ -7,6 +7,8 @@ import 'package:donut_app_3a_marketapp/tabs/pizza_tab.dart';
 import 'package:donut_app_3a_marketapp/tabs/smoothie_tab.dart';
 import 'package:donut_app_3a_marketapp/utils/my_tab.dart';
 
+//Some modifications
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
   @override

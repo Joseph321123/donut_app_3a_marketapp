@@ -3,6 +3,8 @@ import 'package:donut_app_3a_marketapp/models/product.dart';
 import 'package:donut_app_3a_marketapp/models/category.dart';
 import 'package:donut_app_3a_marketapp/services/product_service.dart';
 
+// To use the API
+
 class SuperMarketPage extends StatefulWidget {
   const SuperMarketPage({super.key});
 
