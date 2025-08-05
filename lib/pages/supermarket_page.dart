@@ -51,10 +51,11 @@ class _SuperMarketPageState extends State<SuperMarketPage> {
       hint: const Text("Selecciona categoría"),
       value: selectedCategoryId,
       onChanged: (value) {
+        print("Cambiando categoría a: $value");
         setState(() {
           selectedCategoryId = value;
         });
-        loadProducts(categoryId: value);
+        loadProducts(categoryId: value); // Este value debe ser válido
       },
       items: categories.map((cat) {
         return DropdownMenuItem<int>(

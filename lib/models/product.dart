@@ -11,7 +11,7 @@ class Product {
     required this.stock,
   });
 
-  // Recupera el JSON y fabrica un producto
+  // Método para crear un producto a partir de un JSON
   factory Product.fromJson(Map<String, dynamic> json) {
     return Product(
       id: json['productId'] ?? json['idProducto'] ?? 0,
